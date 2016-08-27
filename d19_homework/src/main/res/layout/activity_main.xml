@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.d19_homework.MainActivity">
+
+    <android.support.v4.view.ViewPager android:layout_height="match_parent" android:layout_width="match_parent" android:layout_above="@+id/main_bottom_radio_group" android:id="@+id/main_viewpager_layout"/>
+     <FrameLayout
+         android:id="@+id/main_frame_layout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"></FrameLayout>
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@id/main_bottom_radio_group" android:orientation="horizontal" android:layout_alignParentBottom="true">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/main_bottom_guide_rb" android:text="指南" android:drawableTop="@drawable/main_guide_selector" android:gravity="center_horizontal" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/main_bottom_hot_rb" android:text="热门" android:drawableTop="@drawable/main_hot_selector" android:gravity="center_horizontal" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/main_bottom_category_rb" android:text="分类" android:drawableTop="@drawable/main_category_selector" android:gravity="center_horizontal" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/main_bottom_mine_rb" android:text="我的" android:drawableTop="@drawable/main_mine_selector" android:gravity="center_horizontal" android:button="@null" android:layout_weight="1"/>
+
+</RadioGroup>
+</RelativeLayout>

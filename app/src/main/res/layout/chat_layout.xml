@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/chat_layout_relayout"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/whiteBar">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:text="懒瞄助理"/>
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@id/chat_layout_relayout"/>
+    <ImageView
+        android:id="@+id/chat_layout_img_cat"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/big_black_cat"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/chat_layout_relayout"/>
+    <TextView
+        android:id="@+id/chat_layout_long_txt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/chat_layout_img_cat"
+        android:layout_below="@id/chat_layout_relayout"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="是不是很难找到适合自己或团队的活动呢？在下方发布一条你想要的周末需求，懒喵助理会为您定制只属于你或团队的美好周末"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/chat_layout_img_cat"
+    android:layout_below="@id/chat_layout_long_txt"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="遇到问题？"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/chat_layout_lazy_cat_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="懒喵助理"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为你服务..."/>
+
+</LinearLayout>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:hint="    告诉我你的周末需求吧..."
+    android:layout_marginBottom="60dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/chatedit_shape"/>
+</RelativeLayout>

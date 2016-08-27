@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LazyWeekend.iml" filepath="$PROJECT_DIR$/LazyWeekend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_tj/app_tj.iml" filepath="$PROJECT_DIR$/app_tj/app_tj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d19_homework/d19_homework.iml" filepath="$PROJECT_DIR$/d19_homework/d19_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d37_get_text/d37_get_text.iml" filepath="$PROJECT_DIR$/d37_get_text/d37_get_text.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d38_homework/d38_homework.iml" filepath="$PROJECT_DIR$/d38_homework/d38_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greed_tool/greed_tool.iml" filepath="$PROJECT_DIR$/greed_tool/greed_tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendao_tool/greendao_tool.iml" filepath="$PROJECT_DIR$/greendao_tool/greendao_tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httplibrary/httplibrary.iml" filepath="$PROJECT_DIR$/httplibrary/httplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refreshlibrary/refreshlibrary.iml" filepath="$PROJECT_DIR$/refreshlibrary/refreshlibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v4.view.ViewPager
+    android:id="@+id/welcome_view_oager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/welcoe_weibo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:drawableLeft="@drawable/weibo_share"
+            android:text="微博登录"
+            android:textColor="@color/whiteBar"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/welcome_weixin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:drawableLeft="@drawable/weixin_pay"
+            android:textColor="@color/whiteBar"
+            android:text="微信登录"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/welcome_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂不登录，随便逛逛"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/whiteBar"
+        android:textSize="20sp"/>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../d17_test_two" />
+            <option value="$PROJECT_DIR$/../d18_fragment_to_fragment" />
+            <option value="$PROJECT_DIR$/../d18_viewpager" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../d19_radiogroup" />
+            <option value="$PROJECT_DIR$/../d19_tablayout_viewpager" />
+            <option value="$PROJECT_DIR$/../day19_viewpager_loop" />
+            <option value="$PROJECT_DIR$/../fragment_to_fragment" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../d17_test_two" />
+            <option value="$PROJECT_DIR$/../d18_fragment_to_fragment" />
+            <option value="$PROJECT_DIR$/../d18_viewpager" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../d19_radiogroup" />
+            <option value="$PROJECT_DIR$/../d19_tablayout_viewpager" />
+            <option value="$PROJECT_DIR$/../day19_viewpager_loop" />
+            <option value="$PROJECT_DIR$/../fragment_to_fragment" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

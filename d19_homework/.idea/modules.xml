@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../D17_test.iml" filepath="$PROJECT_DIR$/../D17_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../d17_test_two/d17_test_two.iml" filepath="$PROJECT_DIR$/../d17_test_two/d17_test_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../d18_fragment_to_fragment/d18_fragment_to_fragment.iml" filepath="$PROJECT_DIR$/../d18_fragment_to_fragment/d18_fragment_to_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../d18_viewpager/d18_viewpager.iml" filepath="$PROJECT_DIR$/../d18_viewpager/d18_viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d19_homework.iml" filepath="$PROJECT_DIR$/d19_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../d19_radiogroup/d19_radiogroup.iml" filepath="$PROJECT_DIR$/../d19_radiogroup/d19_radiogroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../d19_tablayout_viewpager/d19_tablayout_viewpager.iml" filepath="$PROJECT_DIR$/../d19_tablayout_viewpager/d19_tablayout_viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day19_viewpager_loop/day19_viewpager_loop.iml" filepath="$PROJECT_DIR$/../day19_viewpager_loop/day19_viewpager_loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fragment_to_fragment/fragment_to_fragment.iml" filepath="$PROJECT_DIR$/../fragment_to_fragment/fragment_to_fragment.iml" />
+    </modules>
+  </component>
+</project>
